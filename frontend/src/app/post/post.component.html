@@ -1,0 +1,16 @@
+<div class="container" style="padding-top: 40px;"  *ngIf="post">
+  <!--*ngIf="post"-->
+  <div class="card" style="max-width: 500px; margin:0 auto;">
+    <img [src]="post.featuredImageUrl" class="card-img-top" alt="">
+    <div class="card-body">
+      <h1 class="card-title">
+        {{post.title}}
+      </h1>
+      <article class="card-text">
+        {{post.summary}}
+      </article>
+    </div>
+  </div>
+  <br>
+
+</div>
